@@ -1,2 +1,9 @@
 /SWFTools
 /ImageMagick
+*.swf
+*.pdf
+*.jpg
+*.gif
+*.png
+*.tif
+*.jpeg
