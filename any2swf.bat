@@ -51,7 +51,7 @@ if %SRC_EXT% ==.png (goto png)
   echo "%1 to %~n1.pdf"
   cscript docx2pdf.js %1 %~dp1%~n1.pdf
   cd %SWFTOOLS_PATH%
-  pdf2swf.exe -p 1-20 -B rfxview.swf -o %2  %~dp1%~n1.swf
+  pdf2swf.exe -p 1-20 -B rfxview.swf -o %2  %~dp1%~n1.pdf
   cd ..
   goto quit
 
