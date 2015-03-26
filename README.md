@@ -1,19 +1,22 @@
 any2swf
 =======
 
+[decripton]
 using a batch file to convert any file to flash file.
 
-example:
+[detail]
+- download and intall ms word and pdf plugin .
+http://www.microsoft.com/downloads/details.aspx?FamilyID=4d951911-3e7e-4ae6-b059-a2e79ed87041&displaylang=en
 
-- download swftools and unzip them.
-- copy any2swf.bat under swftools directory and modify any2swf.bat 
+- download and install swftools and unzip them.
+http://www.swftools.org/download.html
+
+- copy allusing a batch file to convert any file to flash file. batch and srcipt files to the swftools directory.
 - The string 'echo plase enter your command here.' in any2swf.bat replace as you want the command line
--- so you try to your command:
--- 
-
 -- any2swf yourfile.png output.swf
 -- any2swf c:\\01.docx d:\\02.swf
 
+examples:
 jpeg files to pdf:
 
 -- any2swf d:/imgs/*.jpg 1.pdf
@@ -27,8 +30,3 @@ http://www.imagemagick.org/script/binary-releases.php#windows
 http://www.ibm.com/developerworks/library/l-graf2/#N10284
 http://www.imagemagick.org/Usage/layers/
 
-you can use swftools to convert pdf to swf
-http://www.swftools.org/download.html
-
-@author£¨×÷Õß£©
-HTTP: <http://user.qzone.qq.com/173482035/main>
